@@ -1,0 +1,190 @@
+2019-09-15 13:25:11:329 [Appium] Welcome to Appium v1.10.0
+2019-09-15 13:25:11:331 [Appium] Non-default server args:
+2019-09-15 13:25:11:333 [Appium]   logFile: E:\AppiumTesting\src\test\resources\logs\log.txt
+2019-09-15 13:25:11:333 [Appium]   localTimezone: true
+2019-09-15 13:25:11:424 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2019-09-15 13:25:11:774 [HTTP] --> GET /wd/hub/status
+2019-09-15 13:25:11:774 [HTTP] {}
+2019-09-15 13:25:11:778 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2019-09-15 13:25:11:780 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.10.0"}}
+2019-09-15 13:25:11:788 [HTTP] <-- GET /wd/hub/status 200 11 ms - 68
+2019-09-15 13:25:11:788 [HTTP] 
+2019-09-15 13:25:13:979 [HTTP] --> POST /wd/hub/session
+2019-09-15 13:25:13:980 [HTTP] {"desiredCapabilities":{"app":"E:\\AppiumTesting\\.\\app\\selendroid-test-app-0.11.0.apk","platformName":"Android","deviceName":"emulator-5554"},"capabilities":{"firstMatch":[{"appium:app":"E:\\AppiumTesting\\.\\app\\selendroid-test-app-0.11.0.apk","appium:deviceName":"emulator-5554","platformName":"android"}]}}
+2019-09-15 13:25:13:981 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"E:\\AppiumTesting\\.\\app\\selendroid-test-app-0.11.0.apk","platformName":"Android","deviceName":"emulator-5554"},null,{"firstMatch":[{"appium:app":"E:\\AppiumTesting\\.\\app\\selendroid-test-app-0.11.0.apk","appium:deviceName":"emulator-5554","platformName":"android"}]}]
+2019-09-15 13:25:13:982 [BaseDriver] Event 'newSessionRequested' logged at 1568534113981 (13:25:13 GMT+0530 (India Standard Time))
+2019-09-15 13:25:13:996 [Appium] Creating new AndroidDriver (v4.8.0) session
+2019-09-15 13:25:13:996 [Appium] Capabilities:
+2019-09-15 13:25:13:997 [Appium]   platformName: android
+2019-09-15 13:25:13:997 [Appium]   app: E:\AppiumTesting\.\app\selendroid-test-app-0.11.0.apk
+2019-09-15 13:25:13:997 [Appium]   deviceName: emulator-5554
+2019-09-15 13:25:14:003 [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"app":"E:\\AppiumTesting\\... were provided
+2019-09-15 13:25:14:004 [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2019-09-15 13:25:14:025 [BaseDriver] Session created with session id: 509865db-05fb-4f84-bcb4-fbe9b744b264
+2019-09-15 13:25:14:237 [AndroidDriver] Java version is: 1.8.0_211
+2019-09-15 13:25:14:242 [ADB] Checking whether adb is present
+2019-09-15 13:25:14:253 [ADB] Found 1 'build-tools' folders under 'C:\Users\mahme\AppData\Local\Android\Sdk' (newest first):
+2019-09-15 13:25:14:254 [ADB]     C:/Users/mahme/AppData/Local/Android/Sdk/build-tools/28.0.3
+2019-09-15 13:25:14:256 [ADB] Using adb.exe from C:\Users\mahme\AppData\Local\Android\Sdk\platform-tools\adb.exe
+2019-09-15 13:25:14:256 [AndroidDriver] Retrieving device list
+2019-09-15 13:25:14:257 [ADB] Trying to find a connected android device
+2019-09-15 13:25:14:258 [ADB] Getting connected devices...
+2019-09-15 13:25:14:311 [ADB] 1 device(s) connected
+2019-09-15 13:25:14:312 [AndroidDriver] Using device: emulator-5554
+2019-09-15 13:25:14:313 [ADB] Setting device id to emulator-5554
+2019-09-15 13:25:14:316 [ADB] Running 'C:\Users\mahme\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+2019-09-15 13:25:14:387 [ADB] Current device property 'ro.build.version.sdk': 28
+2019-09-15 13:25:14:387 [ADB] Device API level: 28
+2019-09-15 13:25:14:388 [AndroidDriver] Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+2019-09-15 13:25:14:394 [BaseDriver] Using local app 'E:\AppiumTesting\.\app\selendroid-test-app-0.11.0.apk'
+2019-09-15 13:25:14:398 [AndroidDriver] Checking whether app is actually present
+2019-09-15 13:25:14:400 [AndroidDriver] Starting Android session
+2019-09-15 13:25:14:401 [ADB] Running 'C:\Users\mahme\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 wait-for-device'
+2019-09-15 13:25:14:446 [ADB] Running 'C:\Users\mahme\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell echo ping'
+2019-09-15 13:25:14:505 [AndroidDriver] Pushing settings apk to device...
+2019-09-15 13:25:14:507 [ADB] Getting install status for io.appium.settings
+2019-09-15 13:25:14:508 [ADB] Running 'C:\Users\mahme\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2019-09-15 13:25:14:589 [ADB] 'io.appium.settings' is installed
+2019-09-15 13:25:14:590 [ADB] Getting package info for 'io.appium.settings'
+2019-09-15 13:25:14:590 [ADB] Running 'C:\Users\mahme\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2019-09-15 13:25:14:662 [ADB] Checking whether aapt is present
+2019-09-15 13:25:14:665 [ADB] Using aapt.exe from C:\Users\mahme\AppData\Local\Android\Sdk\build-tools\28.0.3\aapt.exe
+2019-09-15 13:25:14:847 [ADB] The version code of the installed 'io.appium.settings' is greater than the application version code (17 > 13)
+2019-09-15 13:25:14:847 [ADB] There is no need to install/upgrade 'C:\Users\mahme\AppData\Local\Programs\Appium\resources\app\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2019-09-15 13:25:14:849 [ADB] Running 'C:\Users\mahme\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell ps'
+2019-09-15 13:25:14:973 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2019-09-15 13:25:14:974 [ADB] Device API level: 28
+2019-09-15 13:25:14:975 [ADB] Running 'C:\Users\mahme\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell appops set io.appium.settings android\:mock_location allow'
+2019-09-15 13:25:15:071 [Logcat] Starting logcat capture
+2019-09-15 13:25:15:133 [ADB] Getting device platform version
+2019-09-15 13:25:15:134 [ADB] Running 'C:\Users\mahme\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+2019-09-15 13:25:15:225 [ADB] Current device property 'ro.build.version.release': 9
+2019-09-15 13:25:15:226 [ADB] Running 'C:\Users\mahme\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell wm size'
+2019-09-15 13:25:15:368 [ADB] Running 'C:\Users\mahme\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.product.model'
+2019-09-15 13:25:15:448 [ADB] Current device property 'ro.product.model': Android SDK built for x86
+2019-09-15 13:25:15:448 [ADB] Running 'C:\Users\mahme\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.product.manufacturer'
+2019-09-15 13:25:15:526 [ADB] Current device property 'ro.product.manufacturer': Google
+2019-09-15 13:25:15:528 [AndroidDriver] Parsing package and activity from app manifest
+2019-09-15 13:25:15:530 [ADB] Using the alternative activity name detection method because of: Could not find apkanalyzer.bat in C:\Users\mahme\AppData\Local\Android\Sdk\platform-tools\apkanalyzer.bat,C:\Users\mahme\AppData\Local\Android\Sdk\emulator\apkanalyzer.bat,C:\Users\mahme\AppData\Local\Android\Sdk\tools\apkanalyzer.bat,C:\Users\mahme\AppData\Local\Android\Sdk\tools\bin\apkanalyzer.bat,C:\Users\mahme\AppData\Local\Android\Sdk\build-tools\28.0.3\apkanalyzer.bat. Do you have the Android SDK installed at 'C:\Users\mahme\AppData\Local\Android\Sdk'?
+2019-09-15 13:25:15:531 [ADB] Extracting package and launch activity from manifest
+2019-09-15 13:25:15:553 [ADB] Package name: 'io.selendroid.testapp'
+2019-09-15 13:25:15:554 [ADB] Main activity name: 'io.selendroid.testapp.HomeScreenActivity'
+2019-09-15 13:25:15:554 [AndroidDriver] Parsed package and activity are: io.selendroid.testapp/io.selendroid.testapp.HomeScreenActivity
+2019-09-15 13:25:15:555 [ADB] Getting install status for io.selendroid.testapp
+2019-09-15 13:25:15:555 [ADB] Running 'C:\Users\mahme\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.selendroid.testapp'
+2019-09-15 13:25:15:649 [ADB] 'io.selendroid.testapp' is not installed
+2019-09-15 13:25:15:649 [ADB] Getting install status for io.selendroid.testapp
+2019-09-15 13:25:15:650 [ADB] Running 'C:\Users\mahme\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.selendroid.testapp'
+2019-09-15 13:25:15:728 [ADB] 'io.selendroid.testapp' is not installed
+2019-09-15 13:25:15:729 [ADB] App 'E:\AppiumTesting\.\app\selendroid-test-app-0.11.0.apk' is not installed
+2019-09-15 13:25:15:729 [ADB] Installing 'E:\AppiumTesting\.\app\selendroid-test-app-0.11.0.apk'
+2019-09-15 13:25:15:730 [ADB] Device API level: 28
+2019-09-15 13:25:15:730 [ADB] Running 'C:\Users\mahme\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 install E\:\\AppiumTesting\\.\\app\\selendroid-test-app-0.11.0.apk'
+2019-09-15 13:25:16:856 [ADB] Install command stdout: Success
+2019-09-15 13:25:16:859 [ADB] Running 'C:\Users\mahme\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell rm -rf /data/local/tmp/strings.json'
+2019-09-15 13:25:16:985 [AndroidDriver] Extracting strings from apk
+2019-09-15 13:25:16:986 [AndroidDriver] E:\AppiumTesting\.\app\selendroid-test-app-0.11.0.apk
+2019-09-15 13:25:16:986 [AndroidDriver] null
+2019-09-15 13:25:16:987 [AndroidDriver] C:\Users\mahme\AppData\Local\Temp\io.selendroid.testapp
+2019-09-15 13:25:16:988 [ADB] Extracting strings from for language: default
+2019-09-15 13:25:17:032 [ADB] Successfully extracted 15 strings from 'E:\AppiumTesting\.\app\selendroid-test-app-0.11.0.apk' resources for '(default)' configuration
+2019-09-15 13:25:17:036 [ADB] Running 'C:\Users\mahme\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 push C\:\\Users\\mahme\\AppData\\Local\\Temp\\io.selendroid.testapp\\strings.json /data/local/tmp'
+2019-09-15 13:25:17:149 [AndroidBootstrap] Watching for bootstrap disconnect
+2019-09-15 13:25:17:150 [ADB] Forwarding system: 4724 to device: 4724
+2019-09-15 13:25:17:151 [ADB] Running 'C:\Users\mahme\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward tcp\:4724 tcp\:4724'
+2019-09-15 13:25:17:200 [UiAutomator] Starting UiAutomator
+2019-09-15 13:25:17:201 [UiAutomator] Moving to state 'starting'
+2019-09-15 13:25:17:201 [UiAutomator] Parsing uiautomator jar
+2019-09-15 13:25:17:202 [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2019-09-15 13:25:17:203 [ADB] Running 'C:\Users\mahme\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 push C\:\\Users\\mahme\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+2019-09-15 13:25:17:318 [ADB] Attempting to kill all uiautomator processes
+2019-09-15 13:25:17:319 [ADB] Getting all processes with uiautomator
+2019-09-15 13:25:17:319 [ADB] Running 'C:\Users\mahme\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell ps'
+2019-09-15 13:25:17:449 [ADB] No 'uiautomator' process has been found
+2019-09-15 13:25:17:449 [UiAutomator] Starting UIAutomator
+2019-09-15 13:25:17:450 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","io.selendroid.testapp","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2019-09-15 13:25:19:251 [UiAutomator] Moving to state 'online'
+2019-09-15 13:25:19:258 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2019-09-15 13:25:19:260 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2019-09-15 13:25:19:267 [AndroidBootstrap] Android bootstrap socket is now connected
+2019-09-15 13:25:19:269 [ADB] Running 'C:\Users\mahme\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window'
+2019-09-15 13:25:19:279 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2019-09-15 13:25:19:433 [AndroidDriver] Screen already unlocked, doing nothing
+2019-09-15 13:25:19:434 [ADB] Device API level: 28
+2019-09-15 13:25:19:435 [ADB] Running 'C:\Users\mahme\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start -W -n io.selendroid.testapp/io.selendroid.testapp.HomeScreenActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-09-15 13:25:22:361 [ADB] Waiting up to 20000ms for activity matching pkg: 'io.selendroid.testapp' and activity: 'io.selendroid.testapp.HomeScreenActivity' to be focused
+2019-09-15 13:25:22:362 [ADB] Possible activities, to be checked: 'io.selendroid.testapp.HomeScreenActivity', 'io.selendroid.testapp.io.selendroid.testapp.HomeScreenActivity'
+2019-09-15 13:25:22:365 [ADB] Getting focused package and activity
+2019-09-15 13:25:22:366 [ADB] Running 'C:\Users\mahme\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window windows'
+2019-09-15 13:25:23:220 [ADB] Found package: 'io.selendroid.testapp' and fully qualified activity name : 'io.selendroid.testapp.HomeScreenActivity'
+2019-09-15 13:25:23:222 [Appium] New AndroidDriver session created successfully, session 509865db-05fb-4f84-bcb4-fbe9b744b264 added to master session list
+2019-09-15 13:25:23:223 [BaseDriver] Event 'newSessionStarted' logged at 1568534123223 (13:25:23 GMT+0530 (India Standard Time))
+2019-09-15 13:25:23:225 [W3C (509865db)] Cached the protocol value 'W3C' for the new session 509865db-05fb-4f84-bcb4-fbe9b744b264
+2019-09-15 13:25:23:226 [W3C (509865db)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"E:\\AppiumTesting\\.\\app\\selendroid-test-app-0.11.0.apk","deviceName":"emulator-5554"},"platformName":"android","app":"E:\\AppiumTesting\\.\\app\\selendroid-test-app-0.11.0.apk","deviceName":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google","appPackage":"io.selendroid.testapp","appWaitPackage":"io.selendroid.testapp","appActivity":"io.selendroid.testapp.HomeScreenActivity","appWaitActivity":"io.selendroid.testapp.HomeScreenActivity"}}
+2019-09-15 13:25:23:230 [HTTP] <-- POST /wd/hub/session 200 9248 ms - 875
+2019-09-15 13:25:23:231 [HTTP] 
+2019-09-15 13:25:23:425 [HTTP] --> GET /wd/hub/session/509865db-05fb-4f84-bcb4-fbe9b744b264
+2019-09-15 13:25:23:426 [HTTP] {}
+2019-09-15 13:25:23:428 [W3C (509865db)] Calling AppiumDriver.getSession() with args: ["509865db-05fb-4f84-bcb4-fbe9b744b264"]
+2019-09-15 13:25:23:462 [W3C (509865db)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"E:\\AppiumTesting\\.\\app\\selendroid-test-app-0.11.0.apk","deviceName":"emulator-5554"},"platformName":"android","app":"E:\\AppiumTesting\\.\\app\\selendroid-test-app-0.11.0.apk","deviceName":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google","appPackage":"io.selendroid.testapp","appWaitPackage":"io.selendroid.testapp","appActivity":"io.selendroid.testapp.HomeScreenActivity","appWaitActivity":"io.selendroid.testapp.HomeScreenActivity"}
+2019-09-15 13:25:23:470 [HTTP] <-- GET /wd/hub/session/509865db-05fb-4f84-bcb4-fbe9b744b264 200 38 ms - 807
+2019-09-15 13:25:23:471 [HTTP] 
+2019-09-15 13:25:23:474 [HTTP] --> GET /wd/hub/session/509865db-05fb-4f84-bcb4-fbe9b744b264
+2019-09-15 13:25:23:474 [HTTP] {}
+2019-09-15 13:25:23:475 [W3C (509865db)] Calling AppiumDriver.getSession() with args: ["509865db-05fb-4f84-bcb4-fbe9b744b264"]
+2019-09-15 13:25:23:477 [W3C (509865db)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"E:\\AppiumTesting\\.\\app\\selendroid-test-app-0.11.0.apk","deviceName":"emulator-5554"},"platformName":"android","app":"E:\\AppiumTesting\\.\\app\\selendroid-test-app-0.11.0.apk","deviceName":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google","appPackage":"io.selendroid.testapp","appWaitPackage":"io.selendroid.testapp","appActivity":"io.selendroid.testapp.HomeScreenActivity","appWaitActivity":"io.selendroid.testapp.HomeScreenActivity"}
+2019-09-15 13:25:23:491 [HTTP] <-- GET /wd/hub/session/509865db-05fb-4f84-bcb4-fbe9b744b264 200 4 ms - 807
+2019-09-15 13:25:23:492 [HTTP] 
+2019-09-15 13:25:23:494 [HTTP] --> POST /wd/hub/session/509865db-05fb-4f84-bcb4-fbe9b744b264/timeouts
+2019-09-15 13:25:23:495 [HTTP] {"implicit":10000}
+2019-09-15 13:25:23:496 [W3C (509865db)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,10000,"509865db-05fb-4f84-bcb4-fbe9b744b264"]
+2019-09-15 13:25:23:498 [BaseDriver] W3C timeout argument: {"implicit":10000}}
+2019-09-15 13:25:23:500 [BaseDriver] Set implicit wait to 10000ms
+2019-09-15 13:25:23:503 [W3C (509865db)] Responding to client with driver.timeouts() result: null
+2019-09-15 13:25:23:506 [HTTP] <-- POST /wd/hub/session/509865db-05fb-4f84-bcb4-fbe9b744b264/timeouts 200 9 ms - 14
+2019-09-15 13:25:23:507 [HTTP] 
+2019-09-15 13:25:28:510 [HTTP] --> DELETE /wd/hub/session/509865db-05fb-4f84-bcb4-fbe9b744b264
+2019-09-15 13:25:28:511 [HTTP] {}
+2019-09-15 13:25:28:512 [W3C (509865db)] Calling AppiumDriver.deleteSession() with args: ["509865db-05fb-4f84-bcb4-fbe9b744b264"]
+2019-09-15 13:25:28:512 [BaseDriver] Event 'quitSessionRequested' logged at 1568534128512 (13:25:28 GMT+0530 (India Standard Time))
+2019-09-15 13:25:28:514 [Appium] Removing session 509865db-05fb-4f84-bcb4-fbe9b744b264 from our master session list
+2019-09-15 13:25:28:515 [AndroidDriver] Shutting down Android driver
+2019-09-15 13:25:28:518 [ADB] Running 'C:\Users\mahme\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop io.selendroid.testapp'
+2019-09-15 13:25:28:868 [ADB] Pressing the HOME button
+2019-09-15 13:25:28:868 [ADB] Running 'C:\Users\mahme\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell input keyevent 3'
+2019-09-15 13:25:31:124 [AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+2019-09-15 13:25:31:131 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+2019-09-15 13:25:31:131 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+2019-09-15 13:25:31:132 [AndroidBootstrap] Received command result from bootstrap
+2019-09-15 13:25:31:133 [UiAutomator] Shutting down UiAutomator
+2019-09-15 13:25:31:134 [UiAutomator] Moving to state 'stopping'
+2019-09-15 13:25:31:136 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+2019-09-15 13:25:31:137 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+2019-09-15 13:25:31:137 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2019-09-15 13:25:31:137 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+2019-09-15 13:25:31:138 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+2019-09-15 13:25:31:138 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+2019-09-15 13:25:31:139 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+2019-09-15 13:25:31:139 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
+2019-09-15 13:25:31:139 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+2019-09-15 13:25:31:140 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=
+2019-09-15 13:25:31:140 [AndroidBootstrap] [UIAUTO STDOUT] Test results for WatcherResultPrinter=.
+2019-09-15 13:25:31:140 [AndroidBootstrap] [UIAUTO STDOUT] Time: 11.927
+2019-09-15 13:25:31:141 [AndroidBootstrap] [UIAUTO STDOUT] OK (1 test)
+2019-09-15 13:25:31:141 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: -1
+2019-09-15 13:25:31:156 [UiAutomator] UiAutomator shut down normally
+2019-09-15 13:25:31:156 [UiAutomator] Moving to state 'stopped'
+2019-09-15 13:25:31:157 [ADB] Attempting to kill all uiautomator processes
+2019-09-15 13:25:31:158 [ADB] Getting all processes with uiautomator
+2019-09-15 13:25:31:158 [ADB] Running 'C:\Users\mahme\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell ps'
+2019-09-15 13:25:31:407 [ADB] No 'uiautomator' process has been found
+2019-09-15 13:25:31:407 [UiAutomator] Moving to state 'stopped'
+2019-09-15 13:25:31:408 [Logcat] Stopping logcat capture
+2019-09-15 13:25:31:417 [ADB] Running 'C:\Users\mahme\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop io.appium.unlock'
+2019-09-15 13:25:31:561 [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+2019-09-15 13:25:31:562 [BaseDriver] Event 'quitSessionFinished' logged at 1568534131562 (13:25:31 GMT+0530 (India Standard Time))
+2019-09-15 13:25:31:562 [W3C (509865db)] Received response: null
+2019-09-15 13:25:31:563 [W3C (509865db)] But deleting session, so not returning
+2019-09-15 13:25:31:563 [W3C (509865db)] Responding to client with driver.deleteSession() result: null
+2019-09-15 13:25:31:565 [HTTP] <-- DELETE /wd/hub/session/509865db-05fb-4f84-bcb4-fbe9b744b264 200 3054 ms - 14
+2019-09-15 13:25:31:565 [HTTP] 

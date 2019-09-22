@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.unionbank</groupId>
+  <artifactId>AppiumLearning2</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+  <!-- https://mvnrepository.com/artifact/io.appium/java-client -->
+<dependency>
+    <groupId>io.appium</groupId>
+    <artifactId>java-client</artifactId>
+    <version>RELEASE</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.bytedeco.javacpp-presets/tesseract -->
+<dependency>
+    <groupId>org.bytedeco.javacpp-presets</groupId>
+    <artifactId>tesseract</artifactId>
+    <version>4.0.0-1.4.4</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/net.sourceforge.tess4j/tess4j -->
+<dependency>
+    <groupId>net.sourceforge.tess4j</groupId>
+    <artifactId>tess4j</artifactId>
+    <version>4.4.0</version>
+</dependency>
+
+
+
+</dependencies>
+  
+</project>
