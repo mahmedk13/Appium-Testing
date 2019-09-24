@@ -106,7 +106,7 @@ public class ToastMessage {
 		takeScreenShot();
 		Thread.sleep(5000);
 		String text = OCR(scrPath);
-		System.out.println("maroof");
+		System.out.println("ahmed");
 		System.out.println(text);
 		
 		
